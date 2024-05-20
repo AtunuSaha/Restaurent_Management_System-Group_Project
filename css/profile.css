@@ -1,0 +1,48 @@
+/*...CUSTOMER...*/
+@keyframes Animation {
+    10% {
+      color: rgb(251, 251, 251);
+    }
+    20% {
+      color: rgb(214, 175, 199);
+    }
+    40% {
+      color: rgb(255, 0, 221);
+    }
+    60% {
+      color: rgb(124, 0, 128);
+    }
+    80% {
+      color: blue;
+    }
+    100% {
+      color: rgb(161, 196, 202);
+    }
+  }
+
+  .colorful-text {
+    font-size: 1.5em;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bold;
+    animation: Animation 2s linear infinite;
+  }
+
+  
+
+
+body {
+
+    
+    background-image: url("Profile-Background.png");
+    
+    height: 100%;
+  
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+   
+    
+  }

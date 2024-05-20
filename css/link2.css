@@ -1,0 +1,13 @@
+/*...CUSTOMER...*/
+button[name="b"]{
+    background-color: rgb(237, 129, 192);
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 300px;
+    height: 40px;
+    padding: 10px 20px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+}

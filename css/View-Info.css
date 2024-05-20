@@ -1,0 +1,31 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 27%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 25px;
+}
+
+td {
+    vertical-align: top;
+}
+
+td font {
+    font-size: 18px;
+}
+
+br {
+    line-height: 20px;
+}

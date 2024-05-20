@@ -1,0 +1,24 @@
+/*...CUSTOMER...*/
+body {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .my-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .my-link:hover {
+    color: #0056b3;
+  }
+  
+  .my-link:active {
+    color: #003366; 
+  }

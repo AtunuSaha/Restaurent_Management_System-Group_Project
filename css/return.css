@@ -1,0 +1,15 @@
+/*...CUSTOMER...*/
+button[name="c"]{
+    background-color: rgb(197, 147, 243);
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 100px;
+    height: 40px;
+    padding: 10px 20px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+  

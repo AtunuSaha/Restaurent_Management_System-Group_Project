@@ -1,0 +1,29 @@
+/*...CUSTOMER...*/
+.textbox-container {
+    margin: 0px;
+    
+  }
+  
+  label {
+    display: block;
+    
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    
+  }
+  
+  
+  input:focus {
+   
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 110, 255, 0.5);
+  }
+
+  

@@ -1,0 +1,121 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4;
+  }
+  
+  .dashboard-container {
+    display: flex;
+  }
+  
+  .Menu-container{
+    display: flex;
+  }
+ 
+  .logo {
+    margin: 10px ;
+  }
+
+
+
+  .sidebar{
+    width: 15%;
+    height: 100vh;
+    background-color: #fff;
+  }
+
+  .content {
+    width: 70%;
+    padding: 15px;
+  }
+
+  header{
+    width: 100%;
+    background-color: white;
+  }
+
+  .sidenav {
+    list-style: none;
+    padding: ;
+    margin: 0;
+    margin-top: 25px;
+  }
+
+  .sidenav li {
+    padding: 14px;
+
+  }
+
+  .sidenav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    gap: 25px;
+
+
+  }
+  .active-link {
+    background-color: #F4F4F4;
+  }
+
+  .nav-icon {
+    width: 20px;
+  } 
+
+.log-bt {
+  position: absolute;
+  right: 0px;
+  margin-top: 0px;
+  padding: 10px;
+  ;
+}
+
+.btn-group .button {
+  background-color: #484C94; /* Green */
+  border: 1px solid #060606;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 300px;
+  display: block;
+  row-gap: 5px;
+  margin-bottom: 10px;
+}
+
+.btn-group .button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #8488da;
+}
+
+.btn-group2 .button {
+  background-color: #484C94; /* Green */
+  border: 1px solid #060606;
+  color: white;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 1400px;
+  display: block;
+  row-gap: 5px;
+  margin-bottom: 10px;
+}
+
+.btn-group2 .button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group2 .button:hover {
+  background-color: #8488da;
+}
+

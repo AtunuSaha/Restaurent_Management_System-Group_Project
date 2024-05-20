@@ -1,0 +1,337 @@
+/*login */
+
+button[name="submit"] {
+  background-color: #48d938;
+  border: none;
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+input[name="password"] {
+  width: 50%;
+  padding: 5px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 2px solid #b7b1b1;
+  border-radius: 4px;
+}
+
+input[name="email"] {
+  width: 50%;
+  padding: 5px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 2px solid #c8bfbf;
+  border-radius: 4px;
+}
+
+button[name="forgot_pass"] {
+  background-color: #dc2f1f;
+  border: none;
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
+button[name="sign-up"] {
+  background-color: #407be7;
+  border: none;
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 15px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.sign_up {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#login-header {
+  background-image: url("image/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15px;
+}
+
+.sign_up-body {
+  background-image: url("image/bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15px;
+}
+
+/* form */
+.form {
+  width: 40%;
+  padding: 50px 0px;
+  margin-top: 50px;
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.8px);
+  -webkit-backdrop-filter: blur(3.8px);
+  border: 1px solid rgba(255, 255, 255, 0.53);
+}
+
+.sign-up-form {
+  text-align: right;
+  padding-right: 35px;
+}
+
+/* edit info */
+form[name="editinfo-form"] {
+  max-width: 40%;
+  margin: 0 auto;
+  padding: 20px;
+  padding: 20px 20px;
+  margin-top: 30px;
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.8px);
+  -webkit-backdrop-filter: blur(3.8px);
+  border: 1px solid rgba(255, 255, 255, 0.53);
+}
+
+/* Style the heading inside the form */
+form[name="editinfo-form"] h1[name="h1"] {
+  text-align: center;
+}
+
+/* Style input fields */
+form[name="editinfo-form"] input {
+  width: 70%;
+  padding: 6px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+form[name="editinfo-form"] input [name="phone"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+form[name="editinfo-form"] input [name="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+/* Style the font element for error messages */
+form[name="editinfo-form"] font {
+  color: red;
+}
+
+/* Style the select element */
+form[name="editinfo-form"] select {
+  width: 70%;
+  padding: 6px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+/* Style the update button */
+form[name="editinfo-form"] button[name="button"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect for the button */
+form[name="editinfo-form"] button[name="button"] {
+  background-color: #48d938;
+  border: none;
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* footer */
+
+#footer {
+  background-color: rgb(56, 50, 50);
+  color: white;
+
+  text-align: center;
+  padding: 20px;
+}
+
+.footerlink {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contuct {
+  display: inline;
+}
+
+.contuct>img {
+  width: 25px;
+  padding-top: 15px;
+}
+
+.contuct-text {
+  padding: 5px;
+  font-size: 16px;
+  margin: 5px;
+}
+
+/* managerhome */
+#managerhome-head {
+  border: 1px solid #477e77;
+  background-image: linear-gradient(#052934, #969997);
+  text-align: center;
+  padding-top: 40px;
+}
+
+button[name="x"] {
+  background-color: #729C97;
+  width: 300px;
+  border: none;
+  border-bottom: 2px solid #95b8b3;
+  border-right: 2px solid #95b8b3;
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 15px;
+  shape-outside: revert-layer;
+}
+
+#view-all-delevary-person {
+  background-color: #94c7c0cf;
+}
+
+button[name="y"] {
+  background-color: #45d8c4;;
+  border: none;
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button[name="z"] {
+  background-color: rgb(254, 17, 17);
+  border: none;
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  position: fixed;
+  top: 25px;
+  right: 10px;
+}
+
+.profile-picture {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.home {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* profile */
+button[name="p"] {
+  background-color: black;
+  border: none;
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.profile {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* view */
+
+.pro {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.user-info {
+  background-color: #94c7c0cf;
+  padding: 10px;
+  text-align: center;
+}
+
+/* over view table */
+table[name="overview"] {
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+  border: none;
+}
+
+table[name="overview"] td {
+  padding: 25px;
+  text-align: center;
+}
+
+/* signin */
+p {
+  color: red;
+}
+
+#recruit-delevary-person {
+  background-image: url("image/food-delivery-companies.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0px;
+}
+
+.approve-customer-review {
+  background-color: #94c7c0cf;
+}
+
+.update-pass-body {
+  background-color: #94c7c0cf;
+  padding: 50px;
+}
+.update-stock{
+  background-color:#94c7c0cf ;
+}
+.edit-info{
+  background-color: #94c7c0cf;
+  padding-top: 40px;
+}
+.update-profile{
+  background-color: #94c7c0cf;
+  padding-top: 40px;
+}
+

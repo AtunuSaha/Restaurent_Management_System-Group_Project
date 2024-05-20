@@ -1,0 +1,51 @@
+/*...CUSTOMER...*/
+
+@keyframes Animation {
+    10% {
+      color: rgb(251, 251, 251);
+    }
+    20% {
+      color: rgb(208, 175, 214);
+    }
+    40% {
+      color: rgb(255, 0, 221);
+    }
+    60% {
+      color: rgb(124, 0, 128);
+    }
+    80% {
+      color: blue;
+    }
+    100% {
+      color: rgb(71, 125, 135);
+    }
+  }
+
+  .colorful-text {
+    font-size: 3em;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+    animation: Animation 2s linear infinite;
+  }
+
+  body {
+
+    
+    background-image: url("Home-Background.png");
+    
+    height: 100%;
+  
+    
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+   
+    
+  }
+
+  
+
+  
+  
